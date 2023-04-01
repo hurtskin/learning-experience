@@ -1,6 +1,10 @@
 # learning-experience
 *用python解析xml文件，并将内容插入进单链表中，再进行单链表的遍历功能*
+
+
 home.xml是这次需要解析的xml文件
+
+
 一、先用import xml.etree.cElementTree as ET将xml文件用elementree的方法进行解析
 
 
