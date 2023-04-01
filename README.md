@@ -8,9 +8,9 @@ home.xml是这次需要解析的xml文件
 一、先用import xml.etree.cElementTree as ET将xml文件用elementree的方法进行解析
 
 
-二、定义一个取出节点的大体步骤的函数，并在里面引用其他的具体步骤函数
-    定义一个get_xml_content(path)的函数将xml文件进行导入
-    这样做的方式可以灵活的引入不同的xml文件
+二、定义一个取出节点的大体步骤的函数，并在里面引用其他的具体步骤函数<br>
+    定义一个get_xml_content(path)的函数将xml文件进行导入<br>
+    这样做的方式可以灵活的引入不同的xml文件<br>
     在get_xml_content函数中，使解析出来的树形数据存入tree中，然后用get.root解析出根节点root
 
 
