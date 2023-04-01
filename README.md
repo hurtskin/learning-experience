@@ -11,6 +11,7 @@ home.xml是这次需要解析的xml文件
 
 
 三、取出xml的所有子节点
+    
     def get_all(father):
     xml_strcture = []
     for child in father:
