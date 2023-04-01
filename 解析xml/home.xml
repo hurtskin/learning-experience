@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Interface type="flat_application">
+	<HorizontalLayout
+        itemName_val="dec:StatueBar_horizontallayout"
+        relate_val="parent"
+        height_val="40"
+        width_val="520"
+        margin_top_val="0"
+        margin_left_val="0"
+        background_color_val="(75,75,75)"
+        level_val="1">
+
+        <ImageView
+            itemName_val="dec:Time"
+            build_in_val="dec:StatueBar_horizontallayout"
+            height_val="36"
+            width_val="36"
+            margin_top_val="2"
+            margin_left_val="20"
+            background_image_val="sys_icon/light/checkbox-marked-light.png"
+            level_val="9999"/>
+        
+        <ImageView
+            itemName_val="dec:Time2"
+            build_in_val="dec:StatueBar_horizontallayout"
+            height_val="36"
+            width_val="36"
+            margin_top_val="2"
+            margin_left_val="100"
+            background_image_val="sys_icon/light/settings-outline-light.png"
+            level_val="9999"/>
+
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        itemName_val="dec:Content_horizontallayout"
+        relate_val="parent"
+        height_val="500"
+        width_val="520"
+        margin_top_val="40"
+        margin_left_val="0"
+        background_color_val="(0,0,0)"
+        level_val="1">
+
+        <ImageView
+            itemName_val="dec:demoshow"
+            build_in_val="dec:Content_horizontallayout"
+            height_val="300"
+            width_val="500"
+            margin_top_val="2"
+            margin_left_val="20"
+            background_image_val="image/leap.png"
+            level_val="9999"/>
+
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        itemName_val="dec:Dock_horizontallayout"
+        relate_val="parent"
+        height_val="40"
+        width_val="520"
+        margin_top_val="540"
+        margin_left_val="0"
+        background_color_val="(0,0,0)"
+        level_val="1">
+
+        <ImageView
+            itemName_val="dec:ImageView_First1"
+            build_in_val="dec:Dock_horizontallayout"
+            height_val="36"
+            width_val="36"
+            margin_top_val="2"
+            margin_left_val="10"
+            background_image_val="sys_icon/light/map-search-light.png"
+            level_val="9999"/>
+    </HorizontalLayout>
+
+</Interface>
